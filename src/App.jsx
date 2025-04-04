@@ -15,7 +15,7 @@ function App() {
         const json = await response.json();
         const ids = json.objectIDs; //array of ids corresponding to different works of asian art
         let arr = []; //going to put all the art info into this array first so it happens synchronously
-        for (let i = 0; i < 250 && i*65+i < ids.length; i++) {
+        for (let i = 0; i < 350 && i*65+i < ids.length; i++) {
             const artResponse = await fetch("https://collectionapi.metmuseum.org/public/collection/v1/objects/" + ids[i*65+i]);
             const art = await artResponse.json();
             if(art.primaryImageSmall != "" && art.artistDisplayName != "") {

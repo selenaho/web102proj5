@@ -2,9 +2,9 @@
 
 Submitted by: **Selena Ho**
 
-This web app: **insert description**
+This web app: **displays information about the various works of asian art at the Met**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -41,7 +41,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/selenaho/web102proj5/blob/main/proj5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
@@ -52,7 +52,8 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+- Making sure the filter doesn't override the search and vice versa
 
 ## License
 
